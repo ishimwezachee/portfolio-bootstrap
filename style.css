@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: no-repeat url(./images/Header-llustration-desktop.svg) 0 0;
+  background-size: 100%;
+}
+
+.top-content {
+  margin-top: 110px;
+}
+
+.margin-social {
+  margin-top: 20px;
+}
+
+.style-dis {
+  margin-top: 84px;
+}
+
+.styling-t {
+  margin-top: 400px;
+}
+
+.placement {
+  height: 210px;
+  background-color: #ebf0ee;
+}
+
+.width-control {
+  width: 100%;
+}
+
+.styling {
+  margin-bottom: 100px;
+}
+
+.space {
+  margin-right: 1px;
+}
+
+.col-md-4 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
