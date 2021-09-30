@@ -1,14 +1,15 @@
 # portfolio-bootstrap
 
 
-> This the parts of protofolio which contain my project section
-> about section and contact me. It is a mobile responsive web but 
-> not desktop responsive. 
+> This is a portfolio project composed of welcome section
+> my project section and the techinical languages I use. 
+> The project was built with Bootstrap.
 
 ## Built With
 
 - HTML 
 - CSS
+- Bootstrap
 
 ## Getting Started
 To get a local copy, just follow the steps That I am going to mention bellow:
@@ -35,6 +36,11 @@ To get this project in your local machine, follow these steps:
 
 - GitHub: [@zacheeIshimwe](https://github.com/ishimwezachee)
 - LinkedIn: [@zacheeIshimwe](https://www.linkedin.com/in/zachee-ishimwe-ab952a119/)
+
+👤 **Author2**
+
+- GitHub: [@xtrahuman](https://github.com/xtrahuman)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/tochukwu-okpara-449528197)
 
 
 ## 📝 License
