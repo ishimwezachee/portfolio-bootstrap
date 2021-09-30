@@ -1,13 +1,12 @@
 * {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background:
-    no-repeat url(./images/Header-llustration-desktop.svg) 0 0;
-    background-size: 100%;
+  background: no-repeat url(./images/Header-llustration-desktop.svg) 0 0;
+  background-size: 100%;
 }
 
 .top-content {
@@ -15,28 +14,30 @@ body {
 }
 
 .margin-social {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .style-dis {
-    margin-top: 84px;
+  margin-top: 84px;
 }
 
-.styling-t{
-    margin-top: 400px;
+.styling-t {
+  margin-top: 400px;
 }
 
 .placement {
-    height:252px;
-    background-color: #EBF0EE;
+  height: 210px;
+  background-color: #ebf0ee;
 }
 
-.width-control{
-    width:500px;
+.width-control {
+  width: 100%;
 }
-
-
 
 .styling {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.space {
+  margin-right: 1px;
 }

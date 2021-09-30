@@ -1,160 +1,307 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
+    <title>Bootstrap Example</title>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header>
-            <nav>
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="welcome">
-                <div class=" d-flex justify-content-center text-center top-content">
-                    <div class="col-lg-8">
-                        <h1>Hey there. I'm Zachee</h1>
-                        <h2>I am a software developer</h2>
-                        <p>
-                            I can help you build a product, feature or website Look through some
-                            of my work and experience! If you like what you see and have a project
-                            you need coded, don't hestate to Contact me.
-                        </p>
-                        <div class="d-flex justify-content-center margin-social">
-                            <i class="fab fa-github-square mr-2"></i>
-                            <i class="fab fa-linkedin-in mr-2"></i>
-                            <i class="far fa-hand-peace mr-2"></i>
-                            <i class="fab fa-twitter mr-2"></i>
-                            <i class="fab fa-medium-m"></i>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <div class="d-flex justify-content-center style-dis">
-                <img src="./images/Disabled.svg" alt="downward arrow" />
-            </div>
-            <section>
-                <div class="text-center styling-t">
-                    <h2>Recent works</h2>
-                    <div class=" card-body col-sm-4">
-                        <div class="placement"></div>
-                        <div class="card-title">
-                            <h3>multi-story</h3>
-                        </div>
-                        <div>
-                            <ul class="d-flex justify-content-center list-unstyled">
-                                <li class="mr-2 pr-2 bg-warning"><a href="">ruby on rails</a></li>
-                                <li class="mr-2 pr-2 bg-warning"><a href="">html</a></li>
-                                <li class="mr-2 pr-2 bg-warning"><a href="">css</a></li>
-                                <li class="mr-2 pr-2 bg-warning"><a href="">javascript</a></li>
-                            </ul>
-                        </div>
-                        <a href="#" class="btn btn-primary">See Project</a>
-                    </div>
-
-                </div>
-
-            </section>
-
-            <section>
-
-                <div class=" d-flex justify-content-center text-center top-content">
-                    <div class="col-lg-8">
-                        <h2>About me</h2>
-                        <p>
-                            I can help you build a product , feature or website Look through some of my work and
-                            experience! If you like what you see and have a project you need coded,
-                            don’t hestiate to contact me.
-                        </p>
-                        <a href="#" class="btn btn-primary">See Project</a>
-                    </div>
-                </div>
-
-            </section>
-
-            <section>
-                <div class="text-center">
-                    <div class=" card-body col-sm-4">
-                        <img src="./images/icon-languages.svg" alt="language-icon">
-                        <div class="card-title">
-                            <h3>multi-story</h3>
-                        </div>
-                        <div>
-                            <ul class="d-flex justify-content-center list-unstyled">
-                                <li class="mr-2 pr-2 bg-warning"><a href="">ruby on rails</a></li>
-                                <li class="mr-2 pr-2 bg-warning"><a href="">html</a></li>
-                                <li class="mr-2 pr-2 bg-warning"><a href="">css</a></li>
-                                <li class="mr-2 pr-2 bg-warning"><a href="">javascript</a></li>
-                            </ul>
-                        </div>
-                        <a href="#" class="btn btn-primary">See Project</a>
-                    </div>
-
-                </div>
-            </section>
-
-
-            <section>
-                <div class="row align-items-center styling">
-                    <div class="col-sm-6">
-                        <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in
-                            touch.
-                        </h3>
-                    </div>
-                    <div class="class=col-sm-6">
-                        <form>
-                            <div class="mb-3 width-control">
-                                <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Fullname">
-                            </div>
-                            <div class="mb-3 width-control">
-                                <input type="password" class="form-control" placeholder="Email Address">
-                            </div>
-                            <div class="mb-3 width-control">
-                                <textarea name="user_message" class="form-control" maxlength="500"
-                                    placeholder="Enter text here" required></textarea>
-                            </div>
-
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <div class="d-flex justify-content-center my-3">
+      <header>
+        <nav class="">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="welcome">
+          <div class="d-flex justify-content-center text-center top-content">
+            <div class="col-lg-8">
+              <h1>Hey there. I'm Zachee</h1>
+              <h2>I am a software developer</h2>
+              <p>
+                I can help you build a product, feature or website Look through
+                some of my work and experience! If you like what you see and
+                have a project you need coded, don't hestate to Contact me.
+              </p>
+              <div class="d-flex justify-content-center margin-social">
                 <i class="fab fa-github-square mr-2"></i>
                 <i class="fab fa-linkedin-in mr-2"></i>
                 <i class="far fa-hand-peace mr-2"></i>
                 <i class="fab fa-twitter mr-2"></i>
                 <i class="fab fa-medium-m"></i>
+              </div>
             </div>
-        </footer>
+          </div>
+        </section>
+
+        <div class="d-flex justify-content-center style-dis">
+          <img src="./images/Disabled.svg" alt="downward arrow" />
+        </div>
+        <section>
+          <div class="row text-center justify-content-center">
+            <div
+              class="
+                card-body
+                col-md-3
+                mr-1
+                border border-secondary
+                p-0
+                rounded
+              "
+            >
+              <div class="placement"></div>
+              <div class="rounded bg-white">
+                <div class="card-title">
+                  <h3>multi-story</h3>
+                </div>
+                <div>
+                  <ul class="d-flex justify-content-center list-unstyled">
+                    <li class="mr-2 rounded bg-warning">
+                      <a href="">ruby on rails</a>
+                    </li>
+                    <li class="mr-2 rounded bg-warning"><a href="">html</a></li>
+                    <li class="mr-2 rounded bg-warning"><a href="">css</a></li>
+                    <li class="mr-2 rounded bg-warning">
+                      <a href="">javascript</a>
+                    </li>
+                  </ul>
+                  <div>
+                    <a href="#" class="btn btn-primary">See Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="
+                card-body
+                col-md-3
+                mr-1
+                border border-secondary
+                p-0
+                rounded
+              "
+            >
+              <div class="placement"></div>
+              <div class="rounded bg-white">
+                <div class="card-title">
+                  <h3>multi-story</h3>
+                </div>
+                <div>
+                  <ul class="d-flex justify-content-center list-unstyled">
+                    <li class="mr-2 rounded bg-warning">
+                      <a href="">ruby on rails</a>
+                    </li>
+                    <li class="mr-2 rounded bg-warning"><a href="">html</a></li>
+                    <li class="mr-2 rounded bg-warning"><a href="">css</a></li>
+                    <li class="mr-2 rounded bg-warning">
+                      <a href="">javascript</a>
+                    </li>
+                  </ul>
+                  <div>
+                    <a href="#" class="btn btn-primary">See Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="
+                card-body
+                col-md-3
+                mr-1
+                border border-secondary
+                p-0
+                rounded
+              "
+            >
+              <div class="placement"></div>
+              <div class="rounded bg-white">
+                <div class="card-title">
+                  <h3>multi-story</h3>
+                </div>
+                <div>
+                  <ul class="d-flex justify-content-center list-unstyled">
+                    <li class="mr-2 rounded bg-warning">
+                      <a href="">ruby on rails</a>
+                    </li>
+                    <li class="mr-2 rounded bg-warning"><a href="">html</a></li>
+                    <li class="mr-2 rounded bg-warning"><a href="">css</a></li>
+                    <li class="mr-2 rounded bg-warning">
+                      <a href="">javascript</a>
+                    </li>
+                  </ul>
+                  <div>
+                    <a href="#" class="btn btn-primary">See Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="d-flex justify-content-center text-center top-content">
+            <div class="col-lg-8">
+              <h2>About me</h2>
+              <p>
+                I can help you build a product , feature or website Look through
+                some of my work and experience! If you like what you see and
+                have a project you need coded, don’t hestiate to contact me.
+              </p>
+              <a href="#" class="btn btn-primary">Get My Resume</a>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="row text-center my-5 d-flex justify-content-center">
+            <div class="card-body col-md-3 mr-1 bg-secondary rounded">
+              <img src="./images/icon-languages.svg" alt="language-icon" />
+              <div class="card-title">
+                <h5>Languages</h5>
+              </div>
+              <div>
+                <ul
+                  class="d-flex justify-content-center flex-wrap list-unstyled"
+                >
+                  <li class="mr-2 mt-2 rounded bg-white">
+                    <a href="">ruby on rails</a>
+                  </li>
+                  <li class="mr-2 mt-2 rounded bg-white">
+                    <a href="">html</a>
+                  </li>
+                  <li class="mr-2 mt-2 rounded bg-white"><a href="">css</a></li>
+                  <li class="mr-2 mt-2 rounded bg-white">
+                    <a href="">javascript</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-body col-md-3 mr-1 bg-secondary rounded">
+              <img src="./images/icon-languages.svg" alt="language-icon" />
+              <div class="card-title">
+                <h5>Languages</h5>
+              </div>
+              <div>
+                <ul
+                  class="d-flex justify-content-center flex-wrap list-unstyled"
+                >
+                  <li class="mr-2 mt-2 rounded bg-white">
+                    <a href="">ruby on rails</a>
+                  </li>
+                  <li class="mr-2 mt-2 rounded bg-white">
+                    <a href="">html</a>
+                  </li>
+                  <li class="mr-2 mt-2 rounded bg-white"><a href="">css</a></li>
+                  <li class="mr-2 mt-2 rounded bg-white">
+                    <a href="">javascript</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card-body col-md-3 mr-1 bg-secondary rounded">
+              <img src="./images/icon-languages.svg" alt="language-icon" />
+              <div class="card-title">
+                <h5>Languages</h5>
+              </div>
+              <div>
+                <ul
+                  class="d-flex justify-content-center flex-wrap list-unstyled"
+                >
+                  <li class="mr-2 mt-2 rounded bg-white">
+                    <a href="">ruby on rails</a>
+                  </li>
+                  <li class="mr-2 mt-2 rounded bg-white">
+                    <a href="">html</a>
+                  </li>
+                  <li class="mr-2 mt-2 rounded bg-white"><a href="">css</a></li>
+                  <li class="mr-2 mt-2 rounded bg-white">
+                    <a href="">javascript</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="row align-items-center styling">
+            <div class="col-sm-6">
+              <h3>
+                I'm always interested in hearing about new projects, so if you'd
+                like to chat please get in touch.
+              </h3>
+            </div>
+            <div class="col-sm-6">
+              <form>
+                <div class="mb-3 width-control">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Fullname"
+                  />
+                </div>
+                <div class="mb-3 width-control">
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Email Address"
+                  />
+                </div>
+                <div class="mb-3 width-control">
+                  <textarea
+                    name="user_message"
+                    class="form-control"
+                    maxlength="500"
+                    placeholder="Enter text here"
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="d-flex justify-content-center my-3">
+          <i class="fab fa-github-square mr-2"></i>
+          <i class="fab fa-linkedin-in mr-2"></i>
+          <i class="far fa-hand-peace mr-2"></i>
+          <i class="fab fa-twitter mr-2"></i>
+          <i class="fab fa-medium-m"></i>
+        </div>
+      </footer>
     </div>
-
-</body>
-
+  </body>
 </html>
