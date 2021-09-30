@@ -1,0 +1,42 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:
+    no-repeat url(./images/Header-llustration-desktop.svg) 0 0;
+    background-size: 100%;
+}
+
+.top-content {
+  margin-top: 110px;
+}
+
+.margin-social {
+    margin-top: 20px;
+}
+
+.style-dis {
+    margin-top: 84px;
+}
+
+.styling-t{
+    margin-top: 400px;
+}
+
+.placement {
+    height:252px;
+    background-color: #EBF0EE;
+}
+
+.width-control{
+    width:500px;
+}
+
+
+
+.styling {
+    margin-bottom: 100px;
+}
